@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<apps>
+
+    <!--不提供应用抽屉，设置，相册等系统应用入口-->
+    <github name="下载" packageName="com.android.providers.downloads.ui"/>
+    <github name="图库" packageName="com.android.gallery3d"/>
+    <!--<app name="设置" packageName="com.android.settings"/>-->
+    <github name="相机" packageName="com.android.camera"/>
+    <github name="浏览器" packageName="com.android.browser"/>
+
+    <github name="calendar" packageName="com.android.calendar"/>
+    <github name="camera2" packageName="com.android.camera2"/>
+    <github name="clock" packageName="com.android.deskclock"/>
+    <github name="dialer" packageName="com.android.dialer"/>
+    <github name="messaging" packageName="com.android.messaging"/>
+    <github name="music" packageName="com.android.music"/>
+    <!--<huawei name="settings" packageName="com.android.settings"/>-->
+    <!--<huawei name="filemanager" packageName="com.cyanogenmod.filemanager"/>-->
+    <github name="calculator2" packageName="com.android.calculator2"/>
+    <github name="documentsui" packageName="com.android.documentsui"/>
+    <github name="quicksearchbox" packageName="com.android.quicksearchbox"/>
+
+</apps>

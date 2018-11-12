@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2009 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<favorites xmlns:launcher="http://schemas.android.com/apk/res-auto/com.android.launcher3">
+    <!-- Hotseat -->
+    <include launcher:workspace="@xml/dw_phone_hotseat" />
+
+    <!--<resolve-->
+        <!--launcher:screen="0"-->
+        <!--launcher:x="1"-->
+        <!--launcher:y="0" >-->
+        <!--<favorite-->
+            <!--launcher:uri="#Intent;action=android.intent.action.MAIN;category=android.intent.category.APP_BROWSER;end" />-->
+        <!--<favorite launcher:uri="http://www.baidu.com/" />-->
+    <!--</resolve>-->
+
+    <!--<resolve-->
+        <!--launcher:screen="0"-->
+        <!--launcher:x="2"-->
+        <!--launcher:y="0" >-->
+        <!--<favorite-->
+            <!--launcher:packageName="com.kaopu.tool.ajjl.reggoogleaccount"-->
+            <!--launcher:className="com.cyjh.elfin.activity.SplashActivity"/>-->
+    <!--</resolve>-->
+
+    <!--<folder-->
+        <!--launcher:title="@string/work_folder_name"-->
+        <!--launcher:screen="0"-->
+        <!--launcher:x="0"-->
+        <!--launcher:y="0">-->
+        <!--<favorite-->
+            <!--launcher:packageName="com.google.android.gms"-->
+            <!--launcher:className="com.google.android.gms.app.settings.GoogleSettingsActivity"/>-->
+        <!--<favorite-->
+            <!--launcher:packageName="com.android.vending"-->
+            <!--launcher:className="com.android.vending.AssetBrowserActivity"/>-->
+        <!--<favorite-->
+            <!--launcher:packageName="com.android.settings"-->
+            <!--launcher:className="com.android.settings.Settings"/>-->
+        <!--<favorite-->
+            <!--launcher:packageName="com.cyanogenmod.filemanager"-->
+            <!--launcher:className="com.cyanogenmod.filemanager.activities.NavigationActivity"/>-->
+        <!--<favorite-->
+            <!--launcher:packageName="com.android.gallery"-->
+            <!--launcher:className="com.android.camera.GalleryPicker"/>-->
+        <!--<favorite-->
+            <!--launcher:packageName="com.android.camera"-->
+            <!--launcher:className="com.android.camera.Camera"/>-->
+        <!--<favorite-->
+            <!--launcher:packageName="com.android.music"-->
+            <!--launcher:className="com.android.music.MusicBrowserActivity"/>-->
+        <!--<favorite-->
+        <!--launcher:packageName="com.tencent.androidqqmail"-->
+        <!--launcher:className="com.tencent.qqmail.launcher.desktop.LauncherActivity"/>-->
+        <!--<favorite-->
+            <!--launcher:packageName="com.android.providers.downloads.ui"-->
+            <!--launcher:className="com.android.providers.downloads.ui.DownloadList"/>-->
+        <!--<favorite-->
+            <!--launcher:packageName="com.thirdparty.superuser"-->
+            <!--launcher:className="com.koushikdutta.superuser.MainActivity"/>-->
+        <!--<favorite-->
+            <!--launcher:packageName="com.cyjh.ikaopu"-->
+            <!--launcher:className="com.cyjh.ikaopu.activity.WelcomeActivity"/>-->
+    <!--</folder>-->
+</favorites>
